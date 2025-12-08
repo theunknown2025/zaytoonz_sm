@@ -1,0 +1,34 @@
+# Deployment files (not needed in repo)
+*.zip
+deploy-to-vps.sh
+upload-and-deploy.ps1
+quick-fix.ps1
+fix-permissions.sh
+deploy-instructions.md
+
+# MCP config (contains sensitive data)
+mcp.json
+
+# Checklists and guides
+*CHECKLIST*.txt
+*GUIDE*.md
+DEPLOYMENT_*.txt
+DEPLOYMENT_*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -292,10 +292,41 @@
             text-align: center;
         }
 
+        /* Zaytoonz at a Glance */
+        .glance-cta {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .glance-button {
+            display: inline-block;
+            padding: 14px 32px;
+            background: rgba(168, 217, 74, 0.35);
+            border: 1px solid rgba(168, 217, 74, 0.6);
+            border-radius: 999px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .glance-button:hover {
+            background: rgba(85, 107, 47, 0.95);
+            border-color: rgba(168, 217, 74, 0.8);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+        }
+
         /* Footer */
         .footer {
             text-align: center;
-            margin-top: 50px;
+            margin-top: 24px;
             color: rgba(255, 255, 255, 0.6);
             font-size: 0.85rem;
         }
@@ -477,6 +508,10 @@
                     <span class="scan-text">Scan to Join</span>
                 </div>
             </a>
+        </div>
+
+        <div class="glance-cta">
+            <a href="./aag.html" class="glance-button">Zaytoonz at a Glance</a>
         </div>
 
         <!-- Footer -->
